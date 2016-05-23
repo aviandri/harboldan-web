@@ -1,0 +1,481 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clear {
+	clear: both;
+}
+
+
+
+ 
+/* start css */
+body {
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	color: #444;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: none;
+}
+
+a{
+	text-decoration: none;
+	color: #444;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+@media (max-width: 1200px) {
+	.category_banner img {
+		margin: auto;
+		width: 300px !important;
+	}
+}
+
+@media (max-width: 992px) {
+	input[type=text] {
+	width: auto !important;
+	padding: 5px;
+	}
+	.imsak {
+		height: 120px !important;
+	}
+	.imsak_wrapper {
+		position: none !important;
+		width: auto;
+	}
+	.jadwal {
+		float: none !important;
+		width: auto !important;
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 764px) {
+	.imsak {
+		height: 150px !important;
+	}
+}
+
+@media (max-width: 625px) {
+	.imsak {
+		height: 180px !important;
+	}
+}
+
+@media (max-width: 351px) {
+	.imsak {
+		height: 280px !important;
+	}
+}
+
+@media (max-width: 634px) {
+	input[type=text] {
+	width: 150px !important;
+	padding: 5px;
+	}
+}
+
+@media (max-width: 578px) {
+	.sosmed {
+		margin: 30px 0px 0px 0px !important;
+		text-align: center;
+		float: none !important;
+	}
+	.footer {
+		height: 220px !important;
+	}
+	.newsletter {
+		display: table !important;
+		margin: 20px auto;
+		width: auto;
+		padding: 20px 0 0 0 !important;
+	}
+}
+
+.main_banner img {
+	width: 100%
+}
+
+.wrapper {
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+.main_banner {
+
+}
+
+.header {
+	position: relative;
+	height: 100px;
+}
+
+.logo {
+	background: url(../images/logo.jpg);
+	width: 222px;
+	height: 47px;
+	position: absolute;
+	float: left;
+}
+
+.nav {
+	float: right;
+}
+
+.nav a {
+	margin: 0 10px;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.nav a:hover {
+	color: #73B84A;
+	transition: .2s;
+}
+
+.banner_imsak {
+
+}
+
+.imsak {
+	height: 60px;
+	background-color: #E3EFBE;
+	margin-top: 20px;
+	position: relative;
+	font-size: 12px;
+	text-align: center;
+}
+
+.mosque {
+	background: url(../images//mosque.png);
+	width: 80px;
+	height: 47px;
+	position: relative;
+	float: right;
+	margin-top: 13px;
+}
+
+.imsak_wrapper {
+	position: absolute;
+	margin-top: 10px;
+	padding: 4px 0;
+	top: 0;
+}
+
+.jadwal {
+	float: left;
+	width: 180px;	
+	margin-right: 10px;
+	padding-right: 10px;
+	border-right: solid 1px #CFE298;
+}
+
+
+.jadwal>p:nth-child(1) {
+	font-weight: 700;
+	font-size: 14px;
+	color: #73B84A;
+	margin-bottom: 8px;
+}
+
+.jadwal_detail {
+	float: left;
+}
+
+.detail_imsak, .detail_imsak1 {
+	width: auto;
+	display: inline-block;
+	margin-right: 10px;	
+	padding-right: 10px;
+	margin-bottom: 10px;
+	border-right: solid 1px #CFE298;
+}
+
+.detail_imsak>p:nth-child(1) {
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.detail_imsak1>p:nth-child(1) {
+	font-weight: 700;
+	margin-bottom: 6px;
+}
+
+.detail_imsak1>p:nth-child(2) {
+	font-size: 18px;
+	font-weight: 700;
+	color: #73B84A;
+}
+
+.selengkapnya {
+	float: left;
+	padding: 9px 0 0 10px;
+}
+
+.selengkapnya a:hover {
+	color: #73B84A;
+	transition: .2s;
+}
+
+.category {
+	margin-top: 40px;
+	position: relative;
+}
+
+.division_title {
+	font-weight: 700;
+	font-size: 16px;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.category_banner {
+	display: inline-block;
+	text-align: center;
+}
+
+.category_banner img {
+	padding-bottom: 10px;
+	width: 380px;
+}
+
+.row {
+	margin-right: -8px;
+	margin-left: -8px;
+}
+
+.col-md-4 {
+	padding-right: 8px;
+	padding-left: 8px;
+}
+
+.category_banner a{
+	width: 380px;
+	height: 256px;
+	margin-bottom: 18px;
+}
+
+.category_banner img:hover {
+	background-color: rgba(0,0,0,.5);
+	opacity: 0.5;
+}
+
+.category_banner a:nth-child(3), a:nth-child(6), a:nth-child(9) {
+	margin-right: 0;
+
+}
+
+.div_dot1 {
+	background: url(../images/divisiondot1.jpg);
+	width: 32px;
+	height: 14px;
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.div_dot2 {
+	background: url(../images/divisiondot2.jpg);
+	width: 32px;
+	height: 14px;
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.clear {
+	clear: both;
+}
+
+.merchant {
+	margin-top: 40px;
+}
+
+.merchant img {
+	width: 180px;
+}
+
+.brand_logo {
+	text-align: center;
+}
+
+.brand_logo a{
+ 	padding-bottom: 20px;
+}
+
+.seo {
+	margin-top: 50px;
+}
+
+.seo p{
+	font-size: 12px;
+	line-height: 20px;
+}
+.seo h1{
+	font-weight: 700;
+	padding-bottom: 20px;
+}
+
+.footer {
+	background: url(../images/footerbg.jpg);
+	width: auto;
+	height: 135px;
+	margin-top: 40px;
+}
+
+.footer_title {
+	font-weight: 700;
+	font-size: 14px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.input_box {
+	float: left;
+	height: 35px;
+	margin-top: 15px;
+}
+
+.submit_box {
+	width: 330px;
+	height: 35px;
+	background-color: #fff;
+	float: left;
+}
+
+.submit_box p {
+	font-size: 12px;
+	font-style: italic;
+	padding-top: 11px;
+	padding-left: 9px;
+}
+
+.action_button {
+	float: left;
+	text-align: center;
+	margin-top: 0;
+}
+
+.action_button a:hover {
+	background-color: #000;
+	transition: .2s;
+}
+
+.action_button a {
+	font-size: 12px;
+	font-weight: 700;
+	color: #fff;
+	background-color: #444;
+	padding: 12px 20px 11px 20px;
+	display: inline-block;
+}
+
+.action_button p {
+	padding: 9px 0 0 14.5px;
+}
+
+.newsletter {
+	padding: 35px 0 0 30px;
+	display: inline-block;
+}
+
+input[type=text] {
+	width: 330px;
+	padding: 5px;
+}
+
+.form {
+	display: -webkit-box;
+}
+
+.button {
+    background-color: #444;
+    border: none;
+    color: #fff;
+    padding: 8.5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.sosmed {
+	float: right;
+	margin: 30px 100px 0px 0px;
+}
+
+.sosmed img {
+	width: 46px;
+	height: 46px;
+}
+
+.icon_sm {
+	margin-top: 12px;
+}
+
+.icon_sm a:hover {
+	opacity: .7;
+	transition: .2s;
+}
+
+.copyright {
+	background: url(../../images/copyright.jpg);
+	width: 180px;
+	height: 19px;
+	margin: 50px auto;
+}
+
+.full {
+  background: url(http://placehold.it/1920x1080) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
