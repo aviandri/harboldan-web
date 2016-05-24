@@ -579,4 +579,10 @@ input[type=text] {
 	    font-weight: 700;
 	}
 
+	.category_banner img:hover{		
+		opacity:0.3;
+		filter:alpha(opacity=100);
+	}
+	
+
 
