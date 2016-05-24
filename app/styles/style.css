@@ -160,6 +160,10 @@ img {
 	float: left;
 }
 
+.logo:hover {
+	cursor: pointer;
+}
+
 .nav {
 	float: right;
 }
@@ -566,6 +570,13 @@ input[type=text] {
 	    text-align:left;
 	    /* inline-block space fix */
 	    margin-right:-4px;
+	}
+
+	.main_banner p {
+	    margin: -50px 0 0 30px;
+	    font-size: 1.3em;
+	    color: #fff;
+	    font-weight: 700;
 	}
 
 
