@@ -609,6 +609,10 @@ input[type=text] {
 		filter:alpha(opacity=100);
 	}
 
+	.category_banner a{
+		margin-bottom: 10px;
+	}
+
 
 
 	@media (max-width: 760px) {
