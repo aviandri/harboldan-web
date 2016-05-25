@@ -469,9 +469,9 @@ input[type=text] {
 }
 
 .copyright {
-	background: url(../images/copyright.jpg);
-	width: 180px;
-	height: 19px;
+	background: url(../images/poweredby.png);
+	width: 260px;
+	height: 50px;
 	margin: 50px auto;
 }
 
