@@ -33,25 +33,34 @@
   <div class="container">
     <div class="wrapper">
       <div class="navbar navbar-default">
-        <div class="navbar-header">
-          <button type="button" class="pull-left navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-            </button>
-          <div class="logo pull-left" onclick="location.href='/';">
+       
+        <div class="container-fluid">
+          <div class="navbar-header">
+              <button type="button" class="pull-left navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <div class="navbar-brand" onclick="location.href='/';">
+                <img src="images/logo.jpg">
+              </div>
+
+              <!-- <a class="navbar-brand logo" href="#">Brand</a> -->
+          </div>
+          
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav pull-right">
+              <li><a href="lifestyle.html">LIFESTYLE</a></li>
+              <li><a href="fashion-beauty.html">FASHION &amp; BEAUTY</a></li>
+              <li><a href="food-groceries.html">FOOD &amp; GROCERIES</a></li>
+              <li><a href="travel.html">TRAVEL</a></li>
+              <li><a href="health-baby-kids.html">HEALTH, BABY &amp; KIDS</a></li>
+            </ul>
           </div>
         </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav pull-right">
-            <li><a href="lifestyle.html">LIFESTYLE</a></li>
-            <li><a href="fashion-beauty.html">FASHION &amp; BEAUTY</a></li>
-            <li><a href="food-groceries.html">FOOD &amp; GROCERIES</a></li>
-            <li><a href="travel.html">TRAVEL</a></li>
-            <li><a href="health-baby-kids.html">HEALTH, BABY &amp; KIDS</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
       </div>
+
+
       <div class="main_banner">
         <a href="#"><img src="images/mainbanner.jpg"></a>
       </div>
@@ -106,9 +115,47 @@
       </div>
       </div>
 
+
       <div class="category">
         <div class="division_title">
-          <p><span class="div_dot1"></span>PILIH KATEGORI YANG KAMU INGINKAN<span class="div_dot2"></span></p>
+          <p><span class="div_dot1"></span>PROMO KHUSUS<span class="div_dot2"></span></p>
+        </div>
+        <div class="row">
+          <div class="category_banner">
+            
+            <div class="banner_item col-md-6 col-xs-12">
+              <div class="hovereffect">
+                  <img class="img-responsive" src="images/mbanner_fashion_beauty.jpg" alt="">
+                  <div class="overlay">
+                     <h2>FASHION & BEAUTY</h2>
+                     <a class="info" href="fashion-beauty.html">SHOW</a>
+                  </div>
+              </div>              
+            </div>
+
+            <div class="banner_item col-md-6 col-xs-12">
+              <div class="hovereffect">
+                  <img class="img-responsive" src="images/mbanner_food_groceries.jpg" alt="">
+                  <div class="overlay">
+                     <h2>FOOD & GROCERIES</h2>
+                     <a class="info" href="food-groceries.html">SHOW</a>
+                  </div>
+              </div>              
+            </div>       
+
+     
+
+              
+          </div>
+            
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+
+      <div class="category">
+        <div class="division_title">
+          <p><span class="div_dot1"></span>PILIH KATEGORI<span class="div_dot2"></span></p>
         </div>
         <div class="row">
           <div class="category_banner">
@@ -188,7 +235,7 @@
 
       <div class="merchant">
         <div class="division_title">
-          <p><span class="div_dot1"></span>MERCHANTS<span class="div_dot2"></span></p>
+          <p><span class="div_dot1"></span>PARTICIPANTS<span class="div_dot2"></span></p>
         </div>
         <div class="brand_logo">
           <a href="#" class="col-md-2 col-xs-6 "><img src="images/participants/asmaraku.png"/></a>
@@ -234,7 +281,7 @@
 
       <div class="merchant">
         <div class="division_title">
-          <p><span class="div_dot1"></span>PARTNERSHIP &amp; SUPPORTED BY<span class="div_dot2"></span></p>
+          <p><span class="div_dot1"></span>MEDIA PARTNERS<span class="div_dot2"></span></p>
         </div>
         <div class="row">
         <div class="brand_logo">
@@ -287,15 +334,7 @@
       </div>
   </div>
     
-    <!-- Google Tag Manager -->
-    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PV7JR7"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-PV7JR7');</script>
-    <!-- End Google Tag Manager -->
+    
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
@@ -319,7 +358,7 @@
     <!-- endbuild -->
     
     <!-- build:js scripts/main.js -->
-    <script src="scripts/main.js"></script>
+      <script src="scripts/main.js"></script>
     <!-- endbuild -->
   </body>
 </html>

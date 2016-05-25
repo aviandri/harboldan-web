@@ -175,9 +175,23 @@ img {
 	cursor: pointer;
 }
 
-.nav {
-	float: right;
+.navbar-brand{
+	float: none;
+	padding: 0px 0px;
 }
+.navbar-brand>img {
+    display: block;
+    width: 222px;
+    margin: 0px auto;
+}
+
+@media (max-width: 1201px){
+	.navbar-header{
+		float: none;
+	}
+}
+
+
 
 .nav a {
 	margin: 0 10px;
@@ -185,10 +199,7 @@ img {
 	font-weight: 700;
 }
 
-.nav a:hover {
-	color: #73B84A;
-	transition: .2s;
-}
+
 
 .banner_imsak {
 
@@ -594,6 +605,20 @@ input[type=text] {
 		opacity:0.3;
 		filter:alpha(opacity=100);
 	}
+
+
+
+	@media (max-width: 760px) {
+		.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+			margin: 0 auto;
+	    	width: 230px;
+	    	text-align: center;
+		}	
+	}
+
+	
+	
+	
 	
 
 
