@@ -354,12 +354,15 @@ img {
 }
 
 .seo p{
-	font-size: 12px;
-	line-height: 20px;
+	font-size: 11px;
+	line-height: 14px;
+	margin-bottom: 10px;
+	color: #888;
 }
-.seo h1{
-	font-weight: 700;
-	padding-bottom: 20px;
+
+.seo h2{
+	font-weight: 200;
+	margin-bottom: 9px;
 }
 
 .footer {
