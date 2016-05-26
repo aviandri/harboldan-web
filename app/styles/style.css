@@ -487,6 +487,10 @@ input[type=text] {
 	margin-top: 20px;
 }
 
+.navbar-nav {
+	float: right;
+}
+
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #74b64c;
@@ -618,12 +622,16 @@ input[type=text] {
 
 
 
-	@media (max-width: 760px) {
+	@media (max-width: 767px) {
 		.navbar-default .navbar-collapse, .navbar-default .navbar-form{
 			margin: 0 auto;
 	    	
 	    	text-align: center;
-		}	
+		}
+		.navbar-nav {
+			float: none !important;
+			text-align: center;
+		}
 	}
 
 	
