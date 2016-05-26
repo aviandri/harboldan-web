@@ -178,6 +178,7 @@ img {
 .navbar-brand{
 	float: none;
 	padding: 0px 0px;
+	margin-top: 10px;
 }
 .navbar-brand>img {
     display: block;
@@ -194,7 +195,8 @@ img {
 
 
 .nav a {
-	margin: 0 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	font-size: 14px;
 	font-weight: 700;
 }
@@ -482,6 +484,7 @@ input[type=text] {
 .navbar-default {
 	background-color: #fff;
 	border-color: #fff;
+	margin-top: 20px;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -618,7 +621,7 @@ input[type=text] {
 	@media (max-width: 760px) {
 		.navbar-default .navbar-collapse, .navbar-default .navbar-form{
 			margin: 0 auto;
-	    	width: 230px;
+	    	
 	    	text-align: center;
 		}	
 	}
