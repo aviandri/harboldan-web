@@ -645,10 +645,12 @@ input[type=text] {
 			text-align:center;
 			position:relative;
 			font-size:17px;
-			
+			top: 50%;
+
+			background-color: rgba(0,0,0,.6);
 			-webkit-transform:translatey(-100px);
 			-ms-transform:translatey(-100px);
-			transform:translatey(-150px);
+			transform:translatey(-100%);
 			-webkit-transition:all .2s ease-in-out;
 			transition:all .2s ease-in-out;
 			padding:10px;
